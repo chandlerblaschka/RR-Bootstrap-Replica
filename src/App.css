@@ -2,6 +2,62 @@
   text-align: center;
 }
 
+.heroImage {
+  display: flex !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.heroCard {
+  background-color: rgb(222,237,214) !important;
+  border: none !important;
+  align-items: flex-end;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.heroTitle {
+  display: flex;
+  margin-left: 7%;
+  padding-top: 20px;
+  font-size: 41px !important;
+  line-height: 52px !important;
+  font-weight: 600 !important;
+  width: 578px !important;
+  text-align: left;
+}
+
+.heroFinePrint {
+  display: flex;
+  margin-left: 7%;
+
+}
+
+.countryDrop {
+  display: flex;
+  width: 20px;
+  margin-left: 1%;
+  margin-top: 10px;
+  align-content: center;
+  
+}
+
+.dropButton {
+  background-color: white !important;
+  border: darkgray 1px solid !important;
+}
+
+.dropArrow {
+  background-color: white !important;
+  border: darkgray 1px solid !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
